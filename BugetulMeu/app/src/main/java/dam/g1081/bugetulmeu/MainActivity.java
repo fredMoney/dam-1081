@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId() == R.id.action_despre) {
             // Intent(componenta_invocatoare, clasa_de_tip_activitate)
+            // TEMA: de invocat si activitea AdaugaActivity
             Intent intent = new Intent(this, DespreActivity.class);
             startActivity(intent);
 
