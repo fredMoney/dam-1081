@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Bugetul Meu</string>
     <string name="action_despre">Despre aplicatie</string>
+    <string-array name="tranzactii">
+        <item>venit</item>
+        <item>cheltuieli</item>
+    </string-array>
 </resources>
